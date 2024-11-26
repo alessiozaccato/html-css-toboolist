@@ -25,7 +25,8 @@ header {
     background-color: white;
 }
 
-nav {
+.second_container {
+
     margin:0 auto;
     width: 80%;
 }
@@ -49,8 +50,41 @@ nav {
     color: #D3D8DC;
 }
 
+.new_task,
+.today,
+.upcoming {
+    padding: 10px;
+}
 
+.new_task p {
+    margin: 15px 7px;
+}
 
+.today p {
+    margin: 15px 7px;
+}
+
+.upcoming p {
+    margin: 15px 7px;
+
+}
+
+.checkmark {
+    color: green;
+    border-radius: 50%;
+    border:1px solid green;
+    font-size: 15px;
+    padding: 1px;
+    
+}
+
+.cross {
+    color: red;
+    border-radius: 50%;
+    border:1px solid red;
+    font-size: 15px;
+    padding: 1px;
+}
 
 
 
