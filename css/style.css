@@ -8,12 +8,49 @@ header img{
 }
 
 header h1 {
-    display: inline-block;
     vertical-align: middle;
-    
+    display: inline-block;
+    font-size: 35px;
 }
 
 header {
-    margin: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.container {
+    margin:30px auto;
+    width: 70%;
+    border-radius: 5px;
     background-color: white;
 }
+
+nav {
+    margin:0 auto;
+    width: 80%;
+}
+
+.add_task,
+.add_section {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    
+}
+
+.add_task {
+    background-color: #47ADF1;
+    color: #DEF2FC;
+}
+
+.add_section {
+    color: #D3D8DC;
+}
+
+
+
+
+
+
